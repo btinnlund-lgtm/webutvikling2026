@@ -1,0 +1,61 @@
+*/prøve på globale stilregler*/
+
+
+
+
+*{ box-sizing: border-box;}
+
+
+body { 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    background-color: #FF5733;
+    color: aqua;
+}
+
+
+.box1{
+    background-color:cadetblue;
+    opacity:0.5;
+}
+
+
+.box2 {
+    background-color: #FF5733;
+}
+
+.box3 {
+    background-color: rgb( 255,0,22);
+}
+
+h1 {
+    color: hsl(15, 6%, 13%);
+    font-size: 32px;
+    font-weight:bold;
+    text-align: center;
+}
+
+#id { 
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+#id {
+    line-height:1,6; 
+} 
+
+#id {
+    background-image:("https://picsum.photos/400/200");
+    background-size:cover;
+    text-decorationk:none;
+}
+
+
+
+/* forskjellen som skjedde var ingenting da kommandoene ikke er riktige og de ikke kommer med og alt er sort*/
+
+
+
+
+
+
+    
