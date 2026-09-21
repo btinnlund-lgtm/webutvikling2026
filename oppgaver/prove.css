@@ -7,51 +7,62 @@
 
 
 body { 
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
-    background-color: #FF5733;
+    
+    font-family:'Gill Sans',Arial, sans-serif;
+    background-color: #51433f;
     color: aqua;
 }
 
-
-.box1{
-    background-color:cadetblue;
-    opacity:0.5;
+a {
+    text-decoration: none;
 }
+
+
+.box1 {
+    background-color:cadetblue;
+    opacity: .5;
+    background-image:url("https://picsum.photos/200/300"); 
+    background-size: contain;
+    text-align: center; 
+   
+}
+
 
 
 .box2 {
     background-color: #FF5733;
+    text-transform: uppercase;
 }
 
 .box3 {
     background-color: rgb( 255,0,22);
+    
 }
 
 h1 {
-    color: hsl(15, 6%, 13%);
+    color: hsl(15, 7%, 11%);
     font-size: 32px;
     font-weight:bold;
     text-align: center;
 }
 
-#id { 
+#line2 { 
     font-size: 4rem;
     text-transform: uppercase;
 }
 
-#id {
-    line-height:1,6; 
+#line {
+    line-height: 1.6;
+    background-color: rgb(174, 174, 30); 
 } 
 
-#id {
-    background-image:("https://picsum.photos/400/200");
+#line3 {
+    
     background-size:cover;
     text-decorationk:none;
 }
 
 
-
-/* forskjellen som skjedde var ingenting da kommandoene ikke er riktige og de ikke kommer med og alt er sort*/
 
 
 
